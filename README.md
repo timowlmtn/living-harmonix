@@ -1,6 +1,14 @@
 # Living Harmonix
 
-Living Harmonix is an AI-driven Feng Shui agent platform that helps you build, customize, and deploy intelligent Feng Shui services for your applications. Whether you’re integrating our agent into a web app, automating spatial analysis, or extending the core engine, this repo contains everything you need to get started.
+Living Harmonix is an AI-driven Feng Shui agent platform.
+
+The mission of this project is to create an AI agent that
+helps the user improve their living space by harnessing
+positive energy or "chi."
+
+By paying attention to your natural environment and using
+this tool, you can get valuable information to arrange your
+living space in ways that optimize harmony and balance.
 
     # Clone the repo
     git clone https://github.com/your-org/livingharmonix.git
@@ -20,7 +28,7 @@ Living Harmonix is an AI-driven Feng Shui agent platform that helps you build, c
 
 - Node.js ≥ 14.x  
 - npm or Yarn  
-- Python 3.8+ (for the agent engine)  
+- Python 3.13+ (for the agent engine)  
 
 ## Configuration
 
@@ -35,17 +43,13 @@ Living Harmonix is an AI-driven Feng Shui agent platform that helps you build, c
 ## Architecture
 
 - **Frontend**  
-    - Next.js + Tailwind CSS  
-    - `/pages` – Static & dynamic agent interfaces  
-- **Backend**  
-    - Node.js (Express) API  
-    - `/api/agent` – Routes for Feng Shui queries  
+    - React Static Page infrastructure  
+
 - **Agent Engine**  
-    - Python service wrapping Llama or OpenAI models  
-    - `/engine` – Core inference & prompt logic  
+    - Python service on Lambda functions using AWS Bedrock
+  
 - **Database**  
-    - PostgreSQL for user sessions & logs  
-    - Sequelize ORM for migrations  
+    - S3 as a data lake
 
 ## Local Development
 
