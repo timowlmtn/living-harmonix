@@ -1,0 +1,137 @@
+/* AuthPage.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f9f6e6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+}
+
+.card h1 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.card p {
+  text-align: left;
+}
+
+.google-button {
+  background-color: #002fa7;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  color: #999;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #9d9b87;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #ccc;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 0;
+  color: #222;
+}
+
+.brand-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.project-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.project-table th,
+.project-table td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #f8f8f8;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem 0;
+}
+
+.camera-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-video {
+  width: 360px;
+  height: 640px;
+  border-radius: 1rem;
+  object-fit: cover;
+  background-color: #000;
+}
+
+.caption {
+  font-size: 0.75rem;
+  color: #ccc;
+  margin-top: 0.5rem;
+  max-width: 320px;
+  text-align: center;
+}
+
+.camera-button {
+  margin-bottom: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}

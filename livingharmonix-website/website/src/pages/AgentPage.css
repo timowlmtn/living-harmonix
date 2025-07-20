@@ -1,0 +1,91 @@
+/* ProjectPage.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* made white */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  position: relative;
+}
+
+.card h1 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.card ul li strong {
+  color: #222;
+}
+
+.card pre {
+  background-color: #f9f6e6;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.logout-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #ccc;
+}
+
+.back-button {
+  background-color: #9d9b87;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.back-button:hover {
+  background-color: #8a8975;
+}
