@@ -137,3 +137,6 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+/livingharmonix-website/website/yarn.lock
+/livingharmonix-website/website/.yarn/
+/livingharmonix-website/website/src/package-lock.json

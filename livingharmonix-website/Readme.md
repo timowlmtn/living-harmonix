@@ -13,9 +13,8 @@ This repository contains everything you need to build and deploy the Living Harm
 1. Install front-end dependencies (if any):
     
     ```bash
-        cd website/src
-        npm install
-        
+        cd website
+        make install
     ```
 
 2. Run the build script to generate website/dist:
