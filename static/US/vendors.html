@@ -1,0 +1,71 @@
+<!-- vendors.html -->
+
+<!-- mark this region so we can pull it out at runtime -->
+<div id="static-root">
+  <section class="vendors-section">
+    <h2 class="vendors-title">Your Preferred Vendors</h2>
+    <p class="vendors-intro">
+      Use this page to explore and maintain your personalized set of local vendors. Our goal is to help you source meaningful, hand-crafted pieces directly from artisans and small studios. You can favorite, track, or add your own sources here.
+    </p>
+
+    <!-- Featured Local Vendors -->
+    <div class="featured-vendors">
+      <h3>🌿 Featured Artisan Sources</h3>
+      <ul>
+        <li><a href="https://rustigianrugs.com/" target="_blank">Rustigian Rugs</a> — Handmade and curated fine rugs from Providence, RI.</li>
+        <li><a href="http://belleauartglass.com/" target="_blank">Gallery Belleau</a> — Blown glass, sculpture, and mixed media by local glass artists.</li>
+        <li><a href="https://hankgilpin.design/" target="_blank">Hank Gilpin Woodworks</a> — Custom woodworking and expressive furniture design.</li>
+      </ul>
+    </div>
+
+    <!-- User Vendor Manager -->
+    <div class="vendor-manager">
+      <h3>🛒 Your Saved Vendors</h3>
+      <table class="vendor-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Website</th>
+            <th>Notes</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Placeholder Vendor Row -->
+          <tr>
+            <td>Maria's Clay Studio</td>
+            <td>Ceramics</td>
+            <td><a href="https://mariasclaystudio.example" target="_blank">Visit Site</a></td>
+            <td>Hand-thrown planters with earthy glazes</td>
+            <td><button>Edit</button> <button>Remove</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Add New Vendor Form -->
+    <div class="vendor-form">
+      <h3>➕ Add a New Vendor</h3>
+      <form>
+        <label>
+          Vendor Name:
+          <input type="text" placeholder="e.g. Willow & Fern Studio" />
+        </label>
+        <label>
+          Category:
+          <input type="text" placeholder="e.g. Textiles, Ceramics, Woodwork" />
+        </label>
+        <label>
+          Website:
+          <input type="url" placeholder="https://example.com" />
+        </label>
+        <label>
+          Notes:
+          <textarea placeholder="Describe style, materials, or favorite pieces"></textarea>
+        </label>
+        <button type="submit">Save Vendor</button>
+      </form>
+    </div>
+  </section>
+</div>
